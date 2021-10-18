@@ -1,0 +1,63 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.hello{
+    font-size: 50px;
+    font-weight: 300;
+}
+.textHighlight{
+    color: #EC4C7B;
+    font-weight: 700;
+    font-size: 50px;
+}
+.halfWidth{
+    width: 30%;
+    float: left;
+}
+.halfWidthLeft{
+    padding-left: 22%;
+    padding-top: 9%;
+}
+.halfWidthRight{
+    padding-top: 5%;
+}
+.halfWidth img{
+    width: 100%;
+}
+p{
+    color: #878080
+}
+.topPart{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 100vh;
+}
+
+.bioLeft{
+    padding-left: 15%;
+    padding-right: 12%;
+    padding-top: 5%;
+}
+.bioRight{
+    padding-top: 13%;
+}
+.bioPart{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.bioHeader{
+    font-weight: 600;
+    font-size: 50px;
+}
+.linkDecoration{
+    text-decoration: none;
+    background-color: #EC4C7B;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
