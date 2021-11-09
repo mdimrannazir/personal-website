@@ -1,4 +1,3 @@
-
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -26,7 +25,7 @@ body{
 .halfWidth img{
     width: 100%;
 }
-p{
+.txt{
     color: #878080
 }
 .topPart{
@@ -49,7 +48,7 @@ section{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
 }
-.bioHeader{
+.header{
     font-weight: 600;
     font-size: 50px;
 }
@@ -60,4 +59,64 @@ section{
     color: white;
     font-weight: bold;
     border-radius: 8px;
+}
+.latestWorkPart{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.ltstWork{
+    text-align: center;
+}
+
+.workImage{
+display: flex;
+}
+.workImage img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.latestWorkPart{
+    width: 80%;
+    margin: auto;
+}
+.rvwsText{
+    width: 50%;
+    margin: 0 auto;
+}
+.rvwsDiv{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.rvws{
+
+    color: rgb(111 114 116);
+}
+.reviewPart{
+    background-image: url(images/footer-bg.png);
+}
+.leaveMsg{
+ background-color: #EC4C7B;
+ border-radius: 8px;
+ width: 700px;
+ height: 200px;
+margin: auto;
+}
+.leaveMsgText{
+    padding-top: 50px;
+}
+.leaveMsg p{
+    color: white;
+}
+.abc{
+    font-weight: bold;
+}
+.mail{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    left: 0%;
+    bottom: 0%;
 }
